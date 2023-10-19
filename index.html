@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Combinar Archivos TXT</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="head">Archivo con etiqueta head:</label>
+        <input type="file" name="head" id="head" accept=".txt"><br>
+
+        <label for="header">Archivo con etiqueta header:</label>
+        <input type="file" name="header" id="header" accept=".txt"><br>
+
+        <label for="section">Archivo con seccion:</label>
+        <input type="file" name="section" id="section" accept=".txt"><br>
+
+        <label for="footer">Archivo con etiqueta footer:</label>
+        <input type="file" name="footer" id="footer" accept=".txt"><br>
+
+        <input type="submit" name="combinar" value="Combinar y Guardar como HTML">
+    </form>
+</body>
+</html>
